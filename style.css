@@ -92,6 +92,9 @@ body {
   font-weight: 700;
   line-height: 1.1;
 }
+.haro-title span{
+    font-style: italic;
+}
 
 .haro-description {
   color: rgba(255, 255, 255, 0.9);
