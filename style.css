@@ -100,3 +100,186 @@ body {
   max-width: 800px;
 }
 
+
+/* meet section */
+.meet-container{
+    background-color: white;
+}
+.meet-header{
+    text-align: center;
+    font-size: 56px;
+    padding: 30px 0px;
+}
+.meet-wrapper{
+    max-width: 1240px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 70px;
+}
+.meet-card{
+    border: 1px solid #E5E7EB;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.meet-img{
+    border: none;
+    border-radius: 30px 30px 0px 0px;
+}
+.meet-card-text{
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.meet-tag{
+    color: #2563EB;
+    font-size: 12px;
+}
+.meet-title{
+    font-size: 20px;
+    color: #0D1B2A;
+    font-weight: 600;
+}
+.meet-item-description{
+    color: #575757;
+    font-size: 14px;
+}
+
+/* spot style */
+.spot-container{
+    background-color: white;
+    margin-bottom: 100px;
+}
+.spot-header-wrap{
+    text-align: center;
+    max-width: 1240px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.spot-title{
+    font-size: 56px;
+}
+.spot-description{
+    font-size: 16px;
+    color: #575757;
+}
+
+.spot-item-container{
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+.spot-item{
+    padding: 30px;
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+}
+.spot-item-tag, .spot-item-description{
+    font-size: 13px;
+    color: #888888;
+    text-transform: uppercase;
+}
+.spot-item-price{
+    color: 30D1B2A;
+    font-size: 44px;
+}
+.space {
+    border-top: 1px solid #E5E7EB;
+    margin: 20px 0;
+}
+.feature-list {
+    padding-left: 20px;
+}
+
+.feature-list li {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.feature-list li::marker {
+    color: #2563EB;
+    font-size: 14px;
+}
+.spot-btn{
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+    font-weight: 600;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.spot-btn:hover{
+    color: #2563EB;
+    border: 1px solid #2563EB;
+}
+
+.spot-item.active {
+    background: #111C2D;
+    border-color: #111C2D;
+}
+
+.spot-item.active .spot-item-tag{
+    color: #93C5FD;
+}
+
+.spot-item.active .spot-item-description {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.spot-item.active .spot-item-price {
+    color: #FFFFFF;
+}
+
+.spot-item.active .space {
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.spot-item.active .feature-list li {
+    color: #FFFFFF;
+}
+
+.spot-item.active .feature-list li::marker {
+    color: #3B82F6;
+}
+
+.spot-item.active .btn-primary {
+    background: #2563EB;
+    color: #FFFFFF;
+}
+
+ .btn-primary:hover {
+    background: #1D4ED8;
+}
+.spot-item.active .spot-btn{
+    color: white;
+    border: 1px solid #1D4ED8;
+    font-weight: 600;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #1D4ED8;
+    cursor: pointer;
+}
+.spot-item.active .spot-btn:hover{
+    background-color: transparent;
+}
